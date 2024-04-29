@@ -3,7 +3,7 @@ name: Delete Feed Generator
 on:
   workflow_dispatch:
     inputs:
-      record_name: "pizza-feed"
+      record_name:
         description: "Record Name"
         required: true
 
